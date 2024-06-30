@@ -10,7 +10,7 @@ function createUserProfiles(originalNames, modifiedNames) {
   });
 }
 
-const originalNames = ['John Doe', 'Jane Smith', 'Bob Johnson', 'Alice Brown', 'Charlie Davis', 'Emily Taylor'];
-const modifiedNames = ['JOHN DOE', 'jane smith', 'bob johnson', 'ALICE BROWN', 'charlie davis', 'EMILY TAYLOR'];
+const originalNames = ['Cindy', 'Liquid', 'Jasmine', 'Chritian', 'David', 'Reaper'];
+const modifiedNames = ['CINDY', 'liquid', 'JASMINE', 'christian', 'DAVID', 'reaper'];
 const userProfiles = createUserProfiles(originalNames, modifiedNames);
 console.log(userProfiles);
