@@ -21,6 +21,6 @@ function processArray(arr) {
 
   const originalArray = [1, 2, 3, 4, 5, 6];
   const processedArray = processArray(originalArray);
-  const stringArray = ["welcome", "to", "my", "first", "DCIT206", "assignment"];
+  const stringArray = ["Hello", "my", "name", "is", "Ofori", "Shirley"];
   const formattedStringArray = formatArrayStrings(stringArray, processedArray);
   console.log(formattedStringArray); 
